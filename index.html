@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="startApp()">
+    <div class="container">
+
+        <div class="details__container">
+            <h1>Weather App</h1>
+            <div class="div details__card">
+                <span class="details__card__info">Location</span>
+                <hr>
+                <span class="details__card__text" id="location">test</span>
+            </div>
+
+            <div class="div details__card">
+                <span class="details__card__info" >Temperature</span>
+                <hr>
+                <span class="details__card__text" id="temperature"></span>
+                <span class="unit">Celsius</span>
+            </div>
+
+            <div class="div details__card">
+                <span class="details__card__info">Wind</span>
+                <hr>
+                <span class="details__card__text" id="wind"></span>
+                <span class="unit">km/h</span>
+            </div>
+
+            <div class="div details__card">
+                <span class="details__card__info">Pressure</span>
+                <hr>
+                <span class="details__card__text" id="pressure"></span>
+                <span class="unit">hPa</span>
+            </div>
+
+            <div class="div details__card">
+                <span class="details__card__info">Sunrise / Sunset</span>
+                <hr>
+                <span class="details__card__text">
+                    <span id="sunrise"></span>
+                    <span>/</span>
+                    <span id="sunset"></span>
+                </span>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
